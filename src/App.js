@@ -1,14 +1,12 @@
-// src/App.js
-
 import React from "react";
 
-import HomeComponent from "./component/Home";  
+import HomeComponent from "./component/Home";
 
 function App() {
   return (
     <div>
-      {/* Another wrong usage */}
-      <Home />   {/* Home is not defined */}
+      <Home /> 
+      <About /> 
     </div>
   );
 }
